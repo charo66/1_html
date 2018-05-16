@@ -2,4 +2,6 @@ h1{color: blue}
 .rojo{color: crimson}
 /*Inicio de comentario*/
 .item{font-size: 2rem}
-.recuadro{border="8" width="300" height="200"}
+.recuadro{border: 3rem;
+width: 6rem;
+height: 10rem}
