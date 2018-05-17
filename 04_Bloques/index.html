@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Bloques HTMl</title>
+    <title>Bloques HTML</title>
     <link rel="stylesheet" href="./css/style.css">
     <style>
         .h2{display: block;
@@ -14,6 +14,8 @@
         margin-top: 1rem;
         padding-top: 1rem;
     }
+    .vertebrados{list-style:none}
+    
     </style>
 </head>
 <body>
@@ -37,7 +39,37 @@
     <p>Numquam in debitis nemo, vitae quos soluta placeat animi similique illo? <br> exercitationem deleniti temporibus excepturi ut officiis tempora, dignissimos facilis<br> harum sit assumenda magnam ab fugit nisi consequuntur numquam?</p>
     <p>Officiis fugiat labore dolore modi eaque sapiente atque? Modi illum doloremque reiciendis, obcaecati error libero! Delectus, fugiat? Sapiente quasi ipsam, placeat rerum eos natus voluptatum facere excepturi repellat inventore obcaecati.</p>
 </article>
-<article></article>
+<article>
+    <h2>Uso de Listas</h2>
+    <h3>Tipos de vertebrados</h3>
+        <ol class="vertebrados">
+            <li>Peces</li>
+            <li>Reptiles
+                <ol>
+                    <li>Tortugas</li>
+                    <li>Cocodrilos</li>
+                    <li>Lagartos</li>
+                    <li>Serpientes</li>
+                </ol>
+            </li>
+            <li>Aves
+                <ul>
+                    <li>Voladoras</li>
+                    <li>Terrestres</li>
+                </ul>
+            </li>
+            <li>Mamiferos</li>
+        </ol>
+        <h3>Definiciones</h3>
+        <dl>
+            <dt>HTML: </dt>
+            <dd>Lenguaje de marcas</dd>
+            <dt>CSS: </dt>
+                <dd>de estilos</dd>
+            <dt>JS: <dt>
+                <dd>de scripts</dd> 
+        </dl>
+</article>
 </main>
 
 </body>
