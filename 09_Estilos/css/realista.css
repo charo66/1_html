@@ -18,6 +18,10 @@ main p:first-child{
     margin-left: 2rem;
 }
 
+main h2~p {
+    background-color: coral
+}
+
 footer {
     clear:both;
 }
