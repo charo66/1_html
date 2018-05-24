@@ -1,0 +1,22 @@
+.verde {
+    text-decoration: underline;
+}
+
+
+h3 {
+    color: blue;
+}
+
+p.verde {
+    color: lime;
+    text-decoration: none;
+}
+h2.verde {
+    color: darkgreen
+}
+
+h3, .verde {
+    font-size: 1.8rem;
+    font-style: italic;
+    font-weight: bold;
+}
