@@ -1,0 +1,11 @@
+--color-fondo
+--color-texto
+
+header {
+    background-color: maroon;
+    color: papayawhip
+}
+
+header h1 {
+    padding: 1rem
+}
