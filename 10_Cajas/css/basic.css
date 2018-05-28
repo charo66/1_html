@@ -7,11 +7,18 @@ p {
     margin: 1rem;
     width: 40%;
     border: 0.1rem solid; 
-    background-color: bisque
+    background-color: bisque;
 }
+
 span {
-    border: 0.1rem solid;
-    margin: 1rem; 
+   /*  border: 0.1rem solid; */
+    margin: 1rem;
     padding: 1rem;
-    background-color: aquamarine
+    background-color: aquamarine;
+}
+
+div p {
+    width: 30%;
+    height: 5rem;
+    overflow: scroll;
 }
